@@ -59,7 +59,7 @@
 }
 
 #firstsection {
-    background-image: url(..imgaes/bmw.jpg);
+    background-image: url(./.imgaes/bmw.jpg);
     height: 100vh;
     background-size: cover;
 }
