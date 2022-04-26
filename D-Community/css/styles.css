@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: transparent;
+    height: 10vh;
+    border-bottom: 1px solid snow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 5%;
+    align-items: center;
+    font-family: 'Libre Bodoni', serif;
+}
+
+.navbar h1 {
+    color: snow;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.navbar h1 span {
+    color: yellow;
+}
+
+.navbar .navlinks ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar .navlinks ul li {
+    list-style: none;
+    margin: 0 10px;
+    padding: 7px;
+    border-radius: 7px;
+    border: 2px solid transparent;
+}
+
+.navbar .navlinks ul li a {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: white;
+}
+
+.navbar .navlinks ul li:hover {
+    border: 2px solid yellow;
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: all ease-out 0.2s;
+}
+
+#firstsection {
+    background-image: url('/D-Community/imgaes/bmw.jpg');
+    height: 100vh;
+    background-size: cover;
+}
+
+.homecontent {
+    display: flex;
+    height: 90vh;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Libre Bodoni', serif;
+}
+
+.homecontent .maintext {
+    height: 60vh;
+    width: 500px;
+    border: 15px solid yellow;
+    margin-top: 2%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: white;
+    line-height: 5rem;
+    padding: 4%;
+
+}
+
+.homecontent .maintext h1 span {
+    color: yellow;
+}
+
+.homecontent .maintext h1 {
+    font-size: 2.8rem;
+    letter-spacing: 5px;
+}
+
+#secondsection {
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.abouttext {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.abouttext h1 {
+    color: rgb(72, 72, 72);
+    font-size: 2rem;
+    line-height: 3rem;
+    border-bottom: 2px solid rgb(72, 72, 72);
+    padding-bottom: 2%;
+}
+
+.abouttext p {
+    color: black;
+    margin-top: 5%;
+    line-height: 2rem;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+.aboutimage {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.aboutimage img {
+    overflow: hidden;
+    width: 30vw;
+    height: 400px;
+    transition: all ease-in 0.1s;
+}
+
+
+#thirdsection {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('/D-Community/imgaes/race.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: last baseline;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.racetext {
+    width: 100%;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.racetext h1 {
+    color: white;
+    font-size: 2.8rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.racetext h1 span {
+    color: yellow;
+}
+
+.joinbtn {
+    margin-top: 50px;
+    text-decoration: none;
+    text-align: center;
+    color: yellow;
+    border: 1px solid yellow;
+    background-color: rgba(0, 0, 0, 0.581);
+    border-radius: 5px;
+    font-size: 2rem;
+    padding: 10px;
+    width: 200px;
+    transition: all ease-in 0.3s;
+    text-transform: uppercase;
+}
+
+.joinbtn:hover {
+    background-color: rgba(0, 0, 0, 0.881);
+    width: 250px;
+    border: 1px solid white;
+}
+
+#fourthsection {
+    height: 110vh;
+    background-color: black;
+}
+
+.tracktext {
+    height: 20vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tracktext h1 {
+    font-size: 2.8rem;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: yellow;
+}
+
+.imagebox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.imagebox img {
+    width: 23%;
+    height: 80vh;
+    filter: grayscale(100%);
+}
+
+.imagebox img:hover {
+    filter: grayscale(0);
+    transition: all ease 0.1s;
+}
+
+#fifthsection {
+    height: 50vh;
+    background-color: white;
+    margin: 2% 5%;
+}
+
+#fifthsection h1 {
+
+    font-size: 2rem;
+    color: gray;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.feedback {
+    height: 40vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.feedback .one {
+    padding: 5%;
+}
+
+.feedback .one h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.feedback .one p {
+    font-size: 1.2rem;
+    color: gray;
+}
+
+footer {
+    height: 10vh;
+    background-color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a h2 span {
+    color: red;
+}
+
+@media screen and (max-width:800px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        font-family: 'Libre Bodoni', serif;
+    }
+
+    .navbar h1 {
+        color: snow;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+    }
+
+    .navbar .navlinks ul li {
+        margin: 0 5px;
+        padding: 2px;
+        border-radius: 5px;
+        border: 1px solid transparent;
+    }
+
+    .navbar .navlinks ul li a {
+        font-size: 0.8rem;
+        letter-spacing: 3px;
+    }
+
+    .navbar .navlinks ul li:hover {
+        border: 1px solid yellow;
+    }
+
+    .homecontent .maintext {
+        height: 60vh;
+        width: 100%;
+        border: 10px solid yellow;
+        margin-top: 2%;
+        display: flex;
+        margin: 0 2%;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        color: white;
+        line-height: 5rem;
+        padding: 4%;
+        background-color: rgba(0, 0, 0, 0.289);
+
+    }
+
+    #firstsection {
+        background-image: url('/D-Community/imgaes/track1.jpg');
+        height: 100vh;
+        background-size: cover;
+    }
+
+    #secondsection {
+        height: fit-content;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap-reverse;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .abouttext {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 7%;
+    }
+
+    .abouttext h1 {
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+
+    .abouttext p {
+        color: black;
+        margin-top: 5%;
+        line-height: 2rem;
+        font-size: 1.1rem;
+        text-align: justify;
+    }
+
+    .aboutimage {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .aboutimage img {
+        overflow: hidden;
+        width: 90%;
+        height: 400px;
+        margin-bottom: 50px;
+    }
+
+    #thirdsection {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0, 2), rgba(0, 0, 0, 0.4)), url('/D-Community/imgaes/track4.jpg');
+    }
+
+    .racetext {
+        width: 100%;
+        height: 100vh;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .racetext h1 {
+        color: white;
+        font-size: 2rem;
+        letter-spacing: 3px;
+        padding: 5%;
+        text-transform: uppercase;
+    }
+
+    #fourthsection {
+        height: fit-content;
+        background-color: black;
+    }
+
+    .tracktext {
+        height: 20vh;
+    }
+
+    .tracktext h1 {
+        font-size: 2rem;
+    }
+
+    .imagebox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+    }
+
+    .imagebox img {
+        width: 70%;
+        height: 80vh;
+        margin: 15px;
+    }
+    .imagebox img:nth-child(4) {
+        margin-bottom: 50px;
+    }
+
+
+    #fifthsection {
+        height: fit-content;
+        background-color: white;
+        margin: 2% 5%;
+    }
+
+    #fifthsection h1 {
+
+        font-size: 2rem;
+        color: gray;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    .feedback {
+        height: 40vh;
+        display: flex;
+        flex-direction:column;
+        justify-content: space-around;
+        align-items: center;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+
+    .feedback .one {
+        padding: 5%;
+    }
+
+    .feedback .one h2 {
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
+
+    .feedback .one p {
+        font-size: 1.2rem;
+        color: gray;
+    }
+
+    footer {
+        height: 10vh;
+        background-color: black;
+        font-family: 'Source Sans Pro', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    footer a {
+        color: white;
+        text-decoration: none;
+        font-size: 1rem;
+    }
+
+    footer a h2 span {
+        color: red;
+    }
+
+
+}
+
+@media screen and (max-width:800px){
+    .imagebox img {
+        width: 90%;
+        height: auto;
+        margin: 15px;
+    }
+    .aboutimage img{
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+}
